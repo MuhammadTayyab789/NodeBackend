@@ -15,6 +15,9 @@ app.get('/contactus',(req,res)=>{
     res.send(`you are contact6 us  on my page`)
 })
 
+app.get('/youtube',(req,res)=>{
+    res.send(`you are contact6 us  on my page`)
+})
 app.listen(process.env.PORT , ()=>{
 
     console.log (   `listening on Port ${process.env.PORT}`)
